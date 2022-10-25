@@ -6,83 +6,86 @@
   "songs": [
     {
       "title": "Hell Bells",
-      "Artist": "AC/DC",
-      "Genre": "Metal",
-      "Year Released": "1980",
+      "artist": "AC/DC",
+      "genre": "Metal",
+      "released": "1980"
     },
 
     {
       "title": "Megan's Piano",
-      "Artist": Megan Thee Stallion",
-      "Genre": Hip-Hop/Rap",
-      "Year Released": 2021",
+      "artist": "Megan Thee Stallion",
+      "genre": "Hip-Hop/Rap",
+      "released": "2021"
     },
 
     {
       "title": "REPEAT IT (with Gunna)",
-      "Artist": "Gunna and Lil Tecca",
-      "Genre": "Hip-Hop/Rap",
-      "Year Released": "2021",
+      "artist": "Gunna and Lil Tecca",
+      "genre": "Hip-Hop/Rap",
+      "released": "2021"
     },
 
     {
       "title": "Goodbye",
-      "Artist": "Mimi Webb",
-      "Genre": "Pop",
-      "Year Released": "2022",
+      "artist": "Mimi Webb",
+      "genre": "Pop",
+      "released": "2022"
     },
 
     {
       "title": "Deep End",
-      "Artist": "Dayglow",
-      "Genre: New Wave, Synthpop",
-      "Year Released: 2022",
+      "artist": "Dayglow",
+      "genre": "New Wave, Synthpop",
+      "released": "2022"
     },
 
     {
       "title": "Her",
-      "Artist": "Megan Thee Stallion",
-      "Genre": "Hip-Hop/Rap",
-      "Year Released": "2022",
+      "artist": "Megan Thee Stallion",
+      "genre": "Hip-Hop/Rap",
+      "released": "2022"
     },
 
     {
       "title": "we'll make this ok (with Travis Backer)",
-      "Artist": "Renforshort, Travis Backer",
-      "Genre": "Alternative/Indie, Pop",
-      "Year Released": "2022",
+      "artist": "Renforshort, Travis Backer",
+      "genre": "Alternative/Indie, Pop",
+      "released": "2022"
     },
+
     {
       "title": "VINCENT VAN GOGH",
-      "Artist: Neville",
-      "Genre: Pop",
-      "Year Released: 2022",
+      "artist": "Neville",
+      "genre": "Pop",
+      "released": "2022"
     },
 
     {
       "title": "Marble",
-      "Artist": "SHOCKZ, Rebecca Helena, Neptunica",
-      "Genre": "Dance/Electronic",
-      "Year Released": "2021",
+      "artist": "SHOCKZ, Rebecca Helena, Neptunica",
+      "genre": "Dance/Electronic",
+      "released": "2021"
     },
+
     {
-      "title": "Adelaide</title>,
-    "Artist: Johnny Orlando",
-    "Genre: Pop",
-    "Year Released: 2020",
+      "title": "Adelaide",
+      "artist": "Johnny Orlando",
+      "genre": "Pop",
+      "released": "2020"
     },
+
     {
-    <title>SUVs (Black on Black)</title>
-    "Artist: Jack Harlow, Pooh Shiesty",
-    "Genre: Hip-Hop/Rap",
-    "Year Released: 2021",
+      "title": "SUVs (Black on Black)",
+      "artist": "Jack Harlow, Pooh Shiesty",
+      "genre": "Hip-Hop/Rap",
+      "released": "2021"
     },
+
     {
-    <title>Girls</title>
-    "Artist: Justus Bennetts",
-    "Genre: Alternative/Indie, Pop",
-    "Year Released: 2022",
-    },
-    </songs>
+      "title": "Girls",
+      "Artist": "Justus Bennetts",
+      "Genre": "Alternative/Indie, Pop",
+      "released": "2022"
+    }
   ]
 }
