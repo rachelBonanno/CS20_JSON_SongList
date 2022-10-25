@@ -1,8 +1,8 @@
-songs {
+body {
     background-color : #007569;
     width: 100%;
 }
-heading {
+.heading {
     display : block;
     padding-left: 15px;
     font-size : 100px;
