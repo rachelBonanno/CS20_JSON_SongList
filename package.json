@@ -1,0 +1,84 @@
+{
+  "name": "CS20_JSON_SongList",
+  "version": "1.0.0",
+  "dependencies": {
+  },
+  "songs": [
+    {
+      "title": "Hell Bells",
+      "Artist": "AC/DC",
+      "Genre": "Metal",
+      "Year Released": "1980",
+    },
+
+    {
+      "title": "Megan's Piano",
+      "Artist": Megan Thee Stallion",
+      "Genre": Hip-Hop/Rap",
+      "Year Released": 2021",
+    },
+
+    {
+      "title": "REPEAT IT (with Gunna)",
+      "Artist: Gunna and Lil Tecca",
+      "Genre: Hip-Hop/Rap",
+      "Year Released: 2021",
+    },
+
+    {
+    <title>Goodbye</title>
+    "Artist": "Mimi Webb",
+    "Genre": "Pop",
+    "Year Released": "2022",
+    },
+    {
+    <title>Deep End</title>
+    "Artist: Dayglow",
+    "Genre: New Wave, Synthpop",
+    "Year Released: 2022",
+    },
+    {
+    <title>Her</title>
+    "Artist: Megan Thee Stallion",
+    "Genre: Hip-Hop/Rap",
+    "Year Released: 2022",
+    },
+    {
+    <title>we'll make this ok (with Travis Backer)</title>
+    "Artist: Renforshort, Travis Backer",
+    "Genre: Alternative/Indie, Pop",
+    "Year Released: 2022",
+    },
+    {
+    <title>VINCENT VAN GOGH</title>
+    "Artist: Neville",
+    "Genre: Pop",
+    "Year Released: 2022",
+    },
+    {
+    <title>Marble</title>
+    "Artist: SHOCKZ, Rebecca Helena, Neptunica",
+    "Genre: Dance/Electronic",
+    "Year Released: 2021",
+    },
+    {
+    <title>Adelaide</title>
+    "Artist: Johnny Orlando",
+    "Genre: Pop",
+    "Year Released: 2020",
+    },
+    {
+    <title>SUVs (Black on Black)</title>
+    "Artist: Jack Harlow, Pooh Shiesty",
+    "Genre: Hip-Hop/Rap",
+    "Year Released: 2021",
+    },
+    {
+    <title>Girls</title>
+    "Artist: Justus Bennetts",
+    "Genre: Alternative/Indie, Pop",
+    "Year Released: 2022",
+    },
+    </songs>
+  ]
+}
