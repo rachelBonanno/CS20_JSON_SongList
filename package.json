@@ -20,49 +20,53 @@
 
     {
       "title": "REPEAT IT (with Gunna)",
-      "Artist: Gunna and Lil Tecca",
-      "Genre: Hip-Hop/Rap",
-      "Year Released: 2021",
+      "Artist": "Gunna and Lil Tecca",
+      "Genre": "Hip-Hop/Rap",
+      "Year Released": "2021",
     },
 
     {
-    <title>Goodbye</title>
-    "Artist": "Mimi Webb",
-    "Genre": "Pop",
-    "Year Released": "2022",
+      "title": "Goodbye",
+      "Artist": "Mimi Webb",
+      "Genre": "Pop",
+      "Year Released": "2022",
+    },
+
+    {
+      "title": "Deep End",
+      "Artist": "Dayglow",
+      "Genre: New Wave, Synthpop",
+      "Year Released: 2022",
+    },
+
+    {
+      "title": "Her",
+      "Artist": "Megan Thee Stallion",
+      "Genre": "Hip-Hop/Rap",
+      "Year Released": "2022",
+    },
+
+    {
+      "title": "we'll make this ok (with Travis Backer)",
+      "Artist": "Renforshort, Travis Backer",
+      "Genre": "Alternative/Indie, Pop",
+      "Year Released": "2022",
     },
     {
-    <title>Deep End</title>
-    "Artist: Dayglow",
-    "Genre: New Wave, Synthpop",
-    "Year Released: 2022",
+      "title": "VINCENT VAN GOGH",
+      "Artist: Neville",
+      "Genre: Pop",
+      "Year Released: 2022",
+    },
+
+    {
+      "title": "Marble",
+      "Artist": "SHOCKZ, Rebecca Helena, Neptunica",
+      "Genre": "Dance/Electronic",
+      "Year Released": "2021",
     },
     {
-    <title>Her</title>
-    "Artist: Megan Thee Stallion",
-    "Genre: Hip-Hop/Rap",
-    "Year Released: 2022",
-    },
-    {
-    <title>we'll make this ok (with Travis Backer)</title>
-    "Artist: Renforshort, Travis Backer",
-    "Genre: Alternative/Indie, Pop",
-    "Year Released: 2022",
-    },
-    {
-    <title>VINCENT VAN GOGH</title>
-    "Artist: Neville",
-    "Genre: Pop",
-    "Year Released: 2022",
-    },
-    {
-    <title>Marble</title>
-    "Artist: SHOCKZ, Rebecca Helena, Neptunica",
-    "Genre: Dance/Electronic",
-    "Year Released: 2021",
-    },
-    {
-    <title>Adelaide</title>
+      "title": "Adelaide</title>,
     "Artist: Johnny Orlando",
     "Genre: Pop",
     "Year Released: 2020",
