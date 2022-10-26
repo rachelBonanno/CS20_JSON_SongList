@@ -1,5 +1,5 @@
 {
-  "name": "CS20_JSON_SongList",
+  "name": "songlist",
   "version": "1.0.0",
   "dependencies": {
   },
@@ -83,8 +83,8 @@
 
     {
       "title": "Girls",
-      "Artist": "Justus Bennetts",
-      "Genre": "Alternative/Indie, Pop",
+      "artist": "Justus Bennetts",
+      "genre": "Alternative/Indie, Pop",
       "released": "2022"
     }
   ]

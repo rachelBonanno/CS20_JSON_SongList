@@ -3,11 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <link href="style.css" rel="stylesheet" type="text/css">
-    <script type = "text/javascript" src = "data.js"></script>
+    <link href="package.json" rel="glossary" type="text/JSON">
+<!--    <script type = "text/javascript" src = "data.js"></script>-->
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
     <title>JSON Song List</title>
 </head>
 <body>
-    <h1 class="heading">Song List</h1>
-    <div id="myData"></div>
+    <section>
+        <h1 class="heading">Song List</h1>
+        <!-- TABLE CONSTRUCTION-->
+        <table id='table'>
+            <!-- HEADING FORMATION -->
+            <thead>
+                <tr>
+                    <th>Song Name</th>
+                    <th>Artist</th>
+                    <th>Genre</th>
+                    <th>Year Released</th>
+                </tr>
+            </thead>
+
+            <script>
+                $(document).ready(function () {
+                    // FETCHING DATA FROM JSON FILE
+                    $.getJSON("./package.json", function (data) {
+                        var student = '';
+                        // ITERATING THROUGH OBJECTS
+                        $.each(data.songs, function (key, value) {
+
+                            //CONSTRUCTION OF ROWS HAVING
+                            // DATA FROM JSON OBJECT
+                            student += '<tr>';
+                            student += '<td>' + value.title + '</td>';
+                            student += '<td>' + value.artist + '</td>';
+                            student += '<td>' + value.genre + '</td>';
+                            student += '<td>' + value.released + '</td>';
+                            student += '</tr>';
+                        });
+                        //INSERTING ROWS INTO TABLE
+                        $('#table').append(student);
+                    });
+                });
+            </script>
+        </table>
+    </section>
 </body>
 </html>
