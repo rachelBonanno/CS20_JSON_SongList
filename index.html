@@ -10,7 +10,7 @@
 <body>
     <section>
         <h1 class="heading">Song List</h1>
-        <!-- TABLE CONSTRUCTION-->
+
         <table id='table'>
             <!-- HEADING FORMATION -->
             <thead>
@@ -35,17 +35,12 @@
             </thead>
 
             <script>
-                function sunshine(selected) {
-
-                }
-
-                $(document).ready(function () {
+                $(document).ready(function (){
                     // FETCHING DATA FROM JSON FILE
                     $.getJSON("./package.json", function (data) {
                         var song = '';
                         // ITERATING THROUGH OBJECTS
-                        $.each(data.songs, function (key, value) {
-
+                        $.each(data.songs, function sunshine(key, value) {
                             //CONSTRUCTION OF ROWS HAVING
                             // DATA FROM JSON OBJECT
                             song += '<tr>';
