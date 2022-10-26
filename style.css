@@ -38,3 +38,13 @@ th {
     background-color: #004C46;
     color: #BDEFEA;
 }
+
+option {
+    background-color: #004C46;
+    color: #BDEFEA;
+}
+
+select {
+    background-color: #BDEFEA;
+    color: #004C46;
+}

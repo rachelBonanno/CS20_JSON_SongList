@@ -10,15 +10,6 @@
 <body>
     <section>
         <h1 class="heading">Song List</h1>
-        <p id="demo" style="text-align: center;"></p>
-
-        <select id="myselect" onchange="change_myselect(this.value)">
-            <option value="">Choose an option:</option>
-            <option value="customers">Customers</option>
-            <option value="products">Products</option>
-            <option value="suppliers">Suppliers</option>
-        </select>
-
         <!-- TABLE CONSTRUCTION-->
         <table id='table'>
             <!-- HEADING FORMATION -->
@@ -26,12 +17,28 @@
                 <tr>
                     <th>Song Name</th>
                     <th>Artist</th>
-                    <th>Genre</th>
+                    <th>
+                        Genre
+                        <p id="demo" style="text-align: center;"></p>
+                        <select id="myselect" onchange="sunshine(this.value)">
+                            <option value="genre">Choose a Genre:</option>
+                            <option value="Pop">Pop</option>
+                            <option value="Metal">Metal</option>
+                            <option value="Hip-Hop/Rap">Hip-Hop/Rap</option>
+                            <option value="Dance/Electronic">Dance/Electronic</option>
+                            <option value="Alternative/Indie, Pop">Alternative/Indie, Pop</option>
+                            <option value="New Wave, Synthpop">New Wave, Synthpop</option>
+                        </select>
+                    </th>
                     <th>Year Released</th>
                 </tr>
             </thead>
 
             <script>
+                function sunshine(selected) {
+
+                }
+
                 $(document).ready(function () {
                     // FETCHING DATA FROM JSON FILE
                     $.getJSON("./package.json", function (data) {
