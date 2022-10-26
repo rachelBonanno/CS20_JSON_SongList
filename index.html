@@ -4,13 +4,21 @@
     <meta charset="UTF-8">
     <link href="style.css" rel="stylesheet" type="text/css">
     <link href="package.json" rel="glossary" type="text/JSON">
-<!--    <script type = "text/javascript" src = "data.js"></script>-->
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
     <title>JSON Song List</title>
 </head>
 <body>
     <section>
         <h1 class="heading">Song List</h1>
+        <p id="demo" style="text-align: center;"></p>
+
+        <select id="myselect" onchange="change_myselect(this.value)">
+            <option value="">Choose an option:</option>
+            <option value="customers">Customers</option>
+            <option value="products">Products</option>
+            <option value="suppliers">Suppliers</option>
+        </select>
+
         <!-- TABLE CONSTRUCTION-->
         <table id='table'>
             <!-- HEADING FORMATION -->
@@ -27,21 +35,21 @@
                 $(document).ready(function () {
                     // FETCHING DATA FROM JSON FILE
                     $.getJSON("./package.json", function (data) {
-                        var student = '';
+                        var song = '';
                         // ITERATING THROUGH OBJECTS
                         $.each(data.songs, function (key, value) {
 
                             //CONSTRUCTION OF ROWS HAVING
                             // DATA FROM JSON OBJECT
-                            student += '<tr>';
-                            student += '<td>' + value.title + '</td>';
-                            student += '<td>' + value.artist + '</td>';
-                            student += '<td>' + value.genre + '</td>';
-                            student += '<td>' + value.released + '</td>';
-                            student += '</tr>';
+                            song += '<tr>';
+                            song += '<td>' + value.title + '</td>';
+                            song += '<td>' + value.artist + '</td>';
+                            song += '<td>' + value.genre + '</td>';
+                            song += '<td>' + value.released + '</td>';
+                            song += '</tr>';
                         });
                         //INSERTING ROWS INTO TABLE
-                        $('#table').append(student);
+                        $('#table').append(song);
                     });
                 });
             </script>
